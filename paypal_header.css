@@ -19,7 +19,7 @@ body, html {
     padding: 10px 20px;
     background-color: white;
     border-bottom: 1px solid #ddd;
-    height: 80px;
+    height: 100px;
 }
 .logo {
     height: 60px; /* Reduce height */
@@ -284,4 +284,55 @@ hr {
 .footer-note strong {
     color: white;
 }
+
+
+/* The PayPal App Section */
+.the-paypal-app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 150vh; /* Full viewport height */
+    width: 100vw; /* Full screen width */
+    background-color: #ece8e8; /* Light background */
+}
+
+/* Title Styling */
+.app-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(35, 35, 128);
+    margin-top: 50px;
+}
+
+.get-app{
+    background-color:#003087;
+    font-size: large;
+    color: #e6f0ff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25%;
+    margin: 30px;
+}
+/* Subtitle Styling */
+.app-subtitle {
+    font-size: 90px;
+    color: rgb(36, 36, 126);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1;
+}
+
+/* Video Styling */
+.inline-video {
+    width: 70vw; /* 60% of screen width */
+    height:95vh; /* Maintain aspect ratio */
+    object-fit:cover; /* Cover mode */
+}
+
+
+
 
