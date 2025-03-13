@@ -18,9 +18,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .head{
-    margin-left: 50px;
+    margin-left: 10px;
     padding-top: 500px;
-    padding-left: 120px;
+    padding-left: 30px;
+    margin-right: 1000px;
 }
 .sidehead{
     color: aliceblue;
