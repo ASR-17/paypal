@@ -295,7 +295,7 @@ hr {
     text-align: center;
     height: 150vh; /* Full viewport height */
     width: 100vw; /* Full screen width */
-    background-color: #ece8e8; /* Light background */
+    background-color: #cacbf1; /* Light background */
 }
 
 /* Title Styling */
@@ -313,7 +313,7 @@ hr {
     color: #e6f0ff;
     font-weight: bold;
     padding: 10px;
-    border-radius: 25%;
+    border-radius: 25px;
     margin: 30px;
 }
 /* Subtitle Styling */
@@ -334,5 +334,35 @@ hr {
 }
 
 
+.payment-section {
+    display: flex;
+    align-items: center;
+    width: 100vw; /* Full width */
+    height: 98vh; /* Adjust height as needed */
+    background-color: #4d2eca;
+    justify-content: space-around;
+}
+.image-column{
+    max-width: 50%;
+    margin-left: 80px;
+}
 
+.text-column{
+    max-width: 30%;
+    margin-right: 30px;
+}
 
+.send_payment{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.8;
+}
+.para{
+    margin-top: 50px;
+    font-size: large;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+}
