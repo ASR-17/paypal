@@ -102,6 +102,69 @@ body, html {
     background-color: white;
     color: #003087;
 }
+/* Section Styling */
+.paypal-card-section {
+    text-align: left;
+    color: white;
+    padding: 60px;
+    background: #001F3F; /* Dark background */
+    overflow: hidden;
+}
+.paypal-card-section h2{
+    font-size: 3rem;
+}
+.card-container {
+    display: flex;
+    gap: 25px;
+    width: max-content; /* Ensures cards don’t wrap */
+}
+
+/* Card Button Style */
+.card {
+    background: white;
+    color: #0056b3; /* Blue text color */
+    padding: 40px;
+    border-radius: 25px;
+    width: 420px; /* Increased width */
+    min-height: 250px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block;
+    white-space: normal;
+    cursor: pointer; /* Makes it behave like a button */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth button-like effects */
+    border: none;
+    text-align: left;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.01); /* Slightly enlarges on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+/* Text and Arrow Styling */
+.card h3 {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Arrow Styling */
+.card-arrow {
+    font-size: 2rem;
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Make cards wider on smaller screens */
+    }
+}
+
 .footer {
     background-color: #001d35;
     color: white;
