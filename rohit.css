@@ -1,8 +1,15 @@
-.f1{
-    background-image: url(paypal/inspaypal.webp);
-    height: 100vh;
+.f1 {
+    background-image: url("./inspaypal.webp");
+    height: auto; /* Change from 100vh to auto to fit content */
+    min-height: 100vh; /* Ensure at least full screen height */
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; /* Extra space between f1 and footer */
+    padding-bottom: 50px; /* Ensures internal spacing */
 }
+
 .heading{
     width: 300px;
     font-size: 50px;
