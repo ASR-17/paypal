@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPal Login</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/39/PayPal.svg" type="image/svg+xml">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Increases the spacing between elements */
+        }
+        
+        .logo {
+            width: 80px;
+            display: block;
+            margin: 0 auto 30px; /* Increased bottom margin for more space */
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 15px 0; /* Adds more space between input fields */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .forgot {
+            text-align: left;  /* Aligns text to the left */
+            width: 100%;  /* Ensures it spans the full container */
+            font-size: 14px;
+            color: #0070ba;
+            text-decoration: none;
+            margin: 5px 0 15px;  /* Adds spacing around it */
+            display: block;  /* Makes it behave like a block element */
+        }
+        .forgot:hover {
+            color: #66b5ee;
+        }
+        
+        
+        .btn {
+            width: 100%;
+            padding: 15px;
+            border-radius: 50px;
+            font-size: 16px;
+            margin-top: 10px; /* Ensures spacing between buttons */
+        }
+        
+        .btn-primary {
+            background-color: #0070ba;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #005ea2;
+        }
+        .btn-secondary {
+            background: none;
+            border: 1px solid #0070ba;
+            color: #0070ba;
+            margin-top: 10px;
+        }
+        .btn-secondary:hover {
+            background-color: #f0f0f0;
+        }
+        .separator {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        .separator::before,
+        .separator::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #ccc;
+            margin: 0 10px;
+        }
+        
+        .separator span {
+            font-size: 14px;
+            color: #777;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal Logo" class="logo">
+    <input type="text" placeholder="Email or mobile number">
+    <a href="#" class="forgot">Forgotten your email?</a>
+    <button class="btn btn-primary">Next</button>
+
+<div class="separator">
+    <span>or</span>
+</div>
+
+<button class="btn btn-secondary">Sign Up</button>
+
+</div>
+
+</body>
+</html>
